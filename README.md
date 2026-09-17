@@ -1,14 +1,14 @@
-# Clarity — Legal Document Decoder
+# LexVeil — Legal Document Decoder
 
-**Clarity** is an AI-powered tool that helps individuals — renters, gig workers, everyday consumers — understand legal documents before they sign or act on them.
+**LexVeil** is an AI-powered tool that helps individuals — renters, gig workers, everyday consumers — understand legal documents before they sign or act on them.
 
-> **Important:** Clarity is an assistive tool. It explains what's in your document — it does **not** provide legal advice, make legal determinations, or replace consultation with a qualified attorney.
+> **Important:** LexVeil is an assistive tool. It explains what's in your document — it does **not** provide legal advice, make legal determinations, or replace consultation with a qualified attorney.
 
 ## What It Does
 
-1. **Document Decoder** — Upload a lease, contract, or terms of service (PDF or pasted text). Clarity breaks it down into a plain-language summary and flags individual clauses by risk level (low / medium / high), with exact source citations.
+1. **Document Decoder** — Upload a lease, contract, or terms of service (PDF or pasted text). LexVeil breaks it down into a plain-language summary and flags individual clauses by risk level (low / medium / high), with exact source citations.
 
-2. **Grounded Q&A** — Ask questions about your document ("What happens if I break this lease early?"). Every answer cites the specific clause it's based on. If the document doesn't contain enough information, Clarity says so rather than guessing.
+2. **Grounded Q&A** — Ask questions about your document ("What happens if I break this lease early?"). Every answer cites the specific clause it's based on. If the document doesn't contain enough information, LexVeil says so rather than guessing.
 
 3. **"Prep for My Lawyer" Export** — Generate a structured brief summarizing the flagged issues, your questions, and suggested topics to discuss with an attorney. Download as a PDF you can bring to a consultation.
 
@@ -18,7 +18,7 @@
 |-------|-----------|
 | Frontend | React + Vite + Tailwind CSS v4 |
 | Backend | Node.js + Express |
-| AI | Google Gemini API (gemini-3.6-flash) |
+| AI | Google Gemini API (gemini-3.5-flash / gemini-3.1-flash-lite) |
 | PDF Parsing | pdf-parse |
 
 ## Setup
@@ -82,7 +82,7 @@ legal_eye/
 
 ## Important Framing
 
-Clarity is designed to **assist, not replace** professional legal counsel:
+LexVeil is designed to **assist, not replace** professional legal counsel:
 
 - Every AI-generated interpretation is linked to the exact source text it came from
 - Ambiguous or unclear clauses are flagged as "review recommended" rather than assigned a confident risk label

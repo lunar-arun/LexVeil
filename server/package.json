@@ -1,7 +1,7 @@
 {
-  "name": "clarity-server",
+  "name": "lexveil-server",
   "version": "1.0.0",
-  "description": "Clarity backend — document analysis API",
+  "description": "LexVeil backend — document analysis API",
   "type": "module",
   "main": "src/index.js",
   "scripts": {

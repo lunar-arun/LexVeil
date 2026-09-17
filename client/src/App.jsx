@@ -23,7 +23,7 @@ function App() {
       <header className="bg-white border-b border-gray-200 py-4 px-6 shadow-sm">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div>
-            <h1 className="text-2xl font-bold text-indigo-700 tracking-tight">Clarity</h1>
+            <h1 className="text-2xl font-bold text-indigo-700 tracking-tight">LexVeil</h1>
             <p className="text-sm text-gray-500 font-medium">Understand your legal documents</p>
           </div>
           {analysis && (
