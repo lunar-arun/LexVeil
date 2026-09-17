@@ -38,7 +38,7 @@ export const generateBriefPdf = (briefData) => {
   doc.setTextColor(107, 114, 128); // gray-500
   doc.text(`Generated: ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`, margin, yPos);
   yPos += 4;
-  doc.text('Prepared by Clarity — AI Document Analysis Tool', margin, yPos);
+  doc.text('Prepared by LexVeil — AI Document Analysis Tool', margin, yPos);
   yPos += 10;
 
   // Divider
@@ -149,5 +149,5 @@ export const generateBriefPdf = (briefData) => {
     addFooter(i);
   }
 
-  doc.save('clarity-legal-brief.pdf');
+  doc.save('lexveil-legal-brief.pdf');
 };
