@@ -1,36 +1,11 @@
-# Dependencies
 node_modules/
-
-# Build output
 dist/
 build/
-
-# Environment variables
+coverage/
 .env
 .env.local
-.env.*.local
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
+*.log
 .DS_Store
 Thumbs.db
-
-# Test / sample files
-*.pdf
-*.doc
-*.docx
-
-# Logs
-*.log
-npm-debug.log*
-
-# Coverage
-coverage/
-
-# Vite
-*.local
+*.tsbuildinfo
+.vite/
