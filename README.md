@@ -183,4 +183,4 @@ npm run typecheck
 
 ## License
 
-MIT
+MIT.
